@@ -1,5 +1,7 @@
 import React from 'react'
 import './WhatsLab.css'
+import iconSearch from '../../img/search.svg'
+import iconOptions from '../../img/dot.svg'
 
 
 class WhatsLab extends React.Component {
@@ -31,8 +33,8 @@ class WhatsLab extends React.Component {
                 value={this.state.userName}
                 onChange={this.changeUserName}
                 />
-                <img className={'icon-search'} src={this.props.iconSearch} alt='Icon Search'/>
-                <img className={'icon-options'} src={this.props.iconOptions} alt='Icon Options'/>
+                <img className={'icon-search'} src={iconSearch} alt='Icon Search'/>
+                <img className={'icon-options'} src={iconOptions} alt='Icon Options'/>
             </div>
             <div className={"page-main"}>
                 <p>{this.state.userName}{this.state.message}</p>
