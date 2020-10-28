@@ -7,10 +7,7 @@ function App() {
   return (
     <div className={"app-container"}>
       <WhatsLab
-      userPicture={'https://picsum.photos/50/50?a=1'}
-      iconSearch={'iconSearch'}
-      iconOptions={'iconOptions'}
-
+      
       />
     </div>
   );
